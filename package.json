@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "dbserver": "json-server --watch db.json --port 8000"
   },
   "dependencies": {
-    "vue": "^3.2.13"
+    "json-server": "^1.0.0-alpha.23",
+    "pinia": "^2.1.7",
+    "vue": "^3.2.13",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@vue/cli-service": "~5.0.0"
